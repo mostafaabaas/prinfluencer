@@ -21,12 +21,32 @@ use the main influUGC identity**. The site was fully restyled before delivery:
 
 | File | What |
 |---|---|
-| `index.html` | Arabic-first landing (RTL): hero, client proof strip, 5 services (influencer PR campaigns, creator relations, product seeding, event invitations, brand trips), why influUGC (with the in-body editorial link to influugc.com), 4-step process, 6-question answer-first FAQ, contact/CTA band, network footer. |
-| `en.html` | Full English mirror (LTR), same structure and FAQ. |
+| `index.html` | Arabic-first landing (RTL): hero, client proof strip, **guides section (3 guides, see retrofit note below)**, 5 services (influencer PR campaigns, creator relations, product seeding, event invitations, brand trips), why influUGC (with the in-body editorial link to influugc.com), 4-step process, 6-question answer-first FAQ, contact/CTA band, network footer. |
+| `en.html` | Full English mirror (LTR), same structure, guides and FAQ. |
 | `404.html` | Branded not-found page (Arabic). |
 
 Plus: `styles.css`, `favicon.svg` (black + lime PR mark), `sitemap.xml`
 (hreflang-annotated), `robots.txt`, `llms.txt`.
+
+## Content retrofit (Nov 6, 2026 — content-first model)
+
+Retrofitted to the owner's Nov 6 content-first model (sites lead with useful
+content for search engines and AI answers, with influUGC's services and real
+work woven in), following the aistore guides pattern: a **Guides** section now
+opens the page flow (after the proof strip, before Services), with three
+substantive, answer-first guides as anchor-linked on-page blocks, in both
+languages:
+
+1. `#guide-events` — how to invite influencers to an event properly.
+2. `#guide-seeding` — product seeding that actually gets posted.
+3. `#guide-brief` — how to brief an influencer for a launch.
+
+Each guide closes with a woven-in influUGC line + the standard central CTAs
+(booking + WhatsApp, `utm_source=prinfluencer`). No invented statistics.
+Section numbering shifted (Guides 01 → Services 02 → Why 03 → Process 04 →
+FAQ 05); header nav and footer nav link the guides; `llms.txt` carries guide
+summaries with UTM CTAs. Guide blocks are on-page anchors, so `sitemap.xml`
+is unchanged.
 
 ## SEO / GEO
 
