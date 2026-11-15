@@ -140,6 +140,7 @@ html[lang="ar"] .g-card p{line-height:1.8}
 .guide-panel{padding:36px 40px;margin-top:24px;scroll-margin-top:96px;border-inline-start:4px solid var(--accent)}
 .guide-panel .cat{font-size:12px;font-weight:700;color:var(--accent);letter-spacing:.1em;text-transform:uppercase}
 html[lang="ar"] .guide-panel .cat{letter-spacing:0}
+.guide-panel .guide-date{font-size:13px;color:var(--mut);opacity:.85;margin:-6px 0 0}
 .guide-panel h3{font-family:var(--font-display);font-size:25px;font-weight:700;margin:10px 0 14px;line-height:1.35}
 html[lang="ar"] .guide-panel h3{font-family:"IBM Plex Sans Arabic",sans-serif}
 .guide-panel p{color:var(--mut);font-size:16px;max-width:72ch}
