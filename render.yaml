@@ -4,3 +4,7 @@ services:
     runtime: static
     buildCommand: ""
     staticPublishPath: .
+    routes:
+      - type: redirect
+        source: /en
+        destination: /en.html
